@@ -11,6 +11,14 @@ Here I have employed the RELU activation function in the CNN network to enhance 
 - [@rn1403](https://github.com/rn1403/)
 
 
+## Network Architecure 
+
+The CNN architecture of this project is shown in the image below. In the training phase, after the final convolution, a fully connected layer with softmax is applied. In the testing phase, the 400-D output of the final convolutional layer is used in the next Feature Fusion step that creates the feature vectors.
+## Results
+
+The accuracy and cross-entropy loss per epoch during the CNN training for the two datasets is shown below: 
+
+
 ## Deployment
 
 To run this project after downloading it
